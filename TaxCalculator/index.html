@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script>
+            //define a function
+            function calculateWage()
+            {
+                //set of statements the execute when called
+                var tax = 1.0825;
+                var purchaseamount = document.getElementById("purchaseamount").value;
+                var total = purchaseamount * tax;
+                var taxamount = total - purchaseamount;
+                //output
+                document.getElementById("total").value = total;
+                document.getElementById("taxamount").value = taxamount;
+
+                
+
+            }
+        </script>
+
+    </head>
+    <body>
+        <h2>Tax Calculator</h2>
+        <form>
+            <label for="purchaseamount">Purchase amount:</label>
+            <input type="text" id="purchaseamount" name="purchaseamount" value=""><br>
+            
+            <label for="taxamount">Tax amount:</label>
+            <input type="text" id="taxamount" name="taxamount" value="" disabled><br>
+
+            <label for="total">Total:</label>
+            <input type="text" id="total" name="total" value="" disabled><br>
+            
+            <input type="button" value="click here to Calculate" onclick="calculateWage()">
+            
+        </form>
+
+
+
+    </body>
+</html>
