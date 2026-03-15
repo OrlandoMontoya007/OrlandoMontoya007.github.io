@@ -1,0 +1,27 @@
+span{
+    color: red;
+    font-weight: bold;
+}
+
+#cheese {
+    position: absolute;
+    z-index: 0;
+}
+
+#pepperoniimg {
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+#sausageimg {
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+
+#mushroomsimg {
+    position: absolute;
+    z-index: 3;
+    display: none;
+}
