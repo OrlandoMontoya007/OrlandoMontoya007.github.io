@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script>
+            //define a function
+            function calculateWage()
+            {
+                //set of statements the execute when called
+                var hours = document.getElementById("hours").value;
+                var payrate = document.getElementById("payrate").value;
+                var wage = hours * payrate;
+                //output
+                document.getElementById("wage").value = wage;
+
+            }
+        </script>
+
+    </head>
+    <body>
+        <span><a href="index.html">home</a> | <a href="bulb.html">bulb</a> | <a href="form.html">form</a></span> <br>
+        <h2>Wage Calculator</h2>
+        <form>
+            <label for="hours">Hours:</label>
+            <input type="text" id="hours" name="hours" value=""><br>
+
+            <label for="payrate">Payrate:</label>
+            <input type="text" id="payrate" name="payrate" value=""><br>
+            
+            <label for="wage">Wage:</label>
+            <input type="text" id="wage" name="wage" value=""><br>
+            
+            <input type="button" value="click here to Calculate" onclick="calculateWage()">
+            
+        </form>
+
+
+
+    </body>
+</html>
