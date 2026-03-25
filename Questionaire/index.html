@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&family=BBH+Bogle&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header> <h1>Welcome to the BASIC QUESTIONS QUESTIONAIR</h1></header>
+    </body>
+    <section>
+        <h1>Here are some basic get to know you questions, for meeting new people</h1>
+        <form action="action_page.php" method="GET" target="_blank">
+            <label for="food">Whats your favriate food?:</label><br>
+            <input type="text" id="food" name="food"><br>
+
+            <label for="music">What is your favorate genere of music?:</label><br>
+            <input type="text" id="music" name="music"><br>
+
+            <label for="artest">from that genere who is your favorate artest?:</label><br>
+            <input type="text" id="artest" name="artest"><br>
+
+            <hr>
+
+            <p>What do you identify as?</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+
+            <input type="radio" id="unsure" name="gender" value="unsure">
+            <label for="unsure">Unsure</label><br>
+
+            <hr>
+
+            <p>What is your favoriate seasion?</p>
+
+            <input type="radio" id="winter" name="Seasion" value="winter">
+            <label for="winter">Winter</label><br>
+
+            <input type="radio" id="summer" name="Seasion" value="summer">
+            <label for="summer">Summer</label><br>
+
+            <input type="radio" id="autumn" name="Seasion" value="autumn">
+            <label for="autumn">Autumn</label><br>
+
+            <input type="radio" id="spring" name="Seasion" value="spring">
+            <label for="spring">Spring</label><br>
+
+            <p>What food combos do you like?</p>
+
+            <fieldset>
+                <legend>OO</legend>
+                <input type="checkbox" id="sweet" name="sweet" value="sweet">
+                <label for="sweet">Sweet</label>
+
+                <input type="checkbox" id="sour" name="sour" value="sour">
+                <label for="sour">Sour</label> <br>
+
+                <input type="checkbox" id="salty" name="salty" value="salty">
+                <label for="salty">Salty</label>
+
+                <input type="checkbox" id="savory" name="savory" value="savory">
+                <label for="savory">Savory</label>
+            </fieldset>
+
+            <label for="question">Any additions or questions you have about the QUESTIONAIR list them here!</label><br>
+            <textarea name="question" id="question" rows="10" cols="30">
+
+            </textarea>
+            <br>
+            
+
+
+
+            <label for="email">If you like this real website give me your eamil:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="password">password:</label><br>
+            <input type="password" id="password" name="password"><br>
+
+            <input type="submit" value="Click to submit"> <input type="reset" value="reset form">
+
+        </form>
+    </section>
+</html>
