@@ -1,0 +1,77 @@
+    <body>
+        
+        <form>
+            <h2>What 2 numbers add up to equal 11?</h2>
+            <input type="checkbox" class="formcheckinput" id="6" name="math" value="6">
+            <label class="formchecklabel" for="6">6</label>
+
+            <input type="checkbox" class="formcheckinput" id="9" name="math" value="9">
+            <label class="formchecklabel" for="9">9</label> <br>
+
+            <input type="checkbox" class="formcheckinput" id="3" name="math" value="3">
+            <label class="formchecklabel" for="3">3</label>
+
+            <input type="checkbox" class="formcheckinput" id="8" name="math" value="8">
+            <label class="formchecklabel" for="8">8</label>
+        </form>
+
+        <hr>
+
+        <form>
+            <h2>What is x? x(6) + 4 / 2 = 44</h2>
+            <input type="radio" class="formcheckinput" id="5" name="math" value="5">
+            <label class="formchecklabel" for="5">5</label>
+
+            <input type="radio" class="formcheckinput" id="7" name="math" value="7">
+            <label class="formchecklabel" for="7">7</label> <br>
+
+            <input type="radio" class="formcheckinput" id="3" name="math" value="3">
+            <label class="formchecklabel" for="3">3</label>
+
+            <input type="radio" class="formcheckinput" id="1" name="math" value="1">
+            <label class="formchecklabel" for="1">1</label>
+        </form>
+
+        <hr>
+
+        <input type="button" value="Confirm" onclick="score()">
+
+
+
+        <script>
+
+        </script>
+
+    </body>
+
+
+
+
+
+
+
+    function score()
+{
+   // var output = "<h3>: ";
+   var confirm = document.getElementById("confirm").value;
+
+    if(document.getElementById("7").checked == true)
+    {
+       output += " True ";
+    }
+    
+
+  ////////////////////////////////////////////////////////////////////////////////
+  //  if( document.getElementById("pepperoni").checked == true)
+ //   {
+ //       output += " Pepperoni ";
+ //   }
+
+ //   if(document.getElementById("mushrooms").checked == true)
+//{
+ //       output += " Mushroom ";
+  //  }
+
+ ////////////////////////////////////////////////////////////////////////////////
+   document.getElementById("output").innerHTML = output;
+}
