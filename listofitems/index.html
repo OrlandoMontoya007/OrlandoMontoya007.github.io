@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <h1>List of my favorite items</h1>
+    </head>
+    <body>
+        <script>
+            var colors = ["cups", "doornobs", "glasses", "USB", "SD cards", "Usb to Micro SD adapters", "blankets", "dvd players", "computers", "Modded Handhelds"]; //array
+
+            document.write("<ul>");
+
+            //loop through all the values in the array
+            for( var counter = 0; counter < colors.length; counter++)
+            {
+                document.write("<li>" + colors[counter] + "</li>");
+            }
+
+            document.write("</ul>");
+        </script>
+    </body>
+</html>
