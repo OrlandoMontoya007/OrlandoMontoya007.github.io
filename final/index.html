@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="code.js"></script>
+        <div class="banner">
+            <img src="photos/Heb.png" width="500" height="200"><br>
+            <p1>Feeding familys with family farms</p1>
+        </div>
+    </head>
+    <body>
+        
+        <div class="pages">
+           <nav>
+                <ul id="links">
+                    <li>Other Pages:</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="medical.html">Medicen</a></li>
+                    <li><a href="produce.html">Produce</a></li>
+                    <li><a href="toys.html">Toys</a></li>
+                </ul>
+            </nav> 
+        </div>
+        
+        <div class="time">
+            <h2>Open & Closing Time</h2>
+            <table>
+            <tr>
+                <th>Day</th>
+                <th>Open</th>
+                <th>Close</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <th>7:00 AM</th>
+                <th>11:00 PM</th>
+            </tr>
+            <tr>
+                <th>Tuseday</th>
+                <th>7:00 AM</th>
+                <th>11:00 PM</th>
+            </tr>
+            <tr>
+                <th>Thersday</th>
+                <th>7:00 AM</th>
+                <th>11:00 PM</th>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <th>9:00 AM</th>
+                <th>10:00 PM</th>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <th>9:00 AM</th>
+                <th>10:00 PM</th>
+            </tr>
+            <tr>
+                <th>Sunday</th>
+                <th>9:00 AM</th>
+                <th>10:00 PM</th>
+            </tr>
+        </table>
+        </div>
+
+        <div class="Job">
+            <p>Open Job Positons</p>
+            <or>
+                <li>Cashier</li>
+                <li>Stocker</li>
+                <li>Bagger</li>
+                <li>Personal Shopper</li>
+                <li>Overnight Stocker</li>
+            </or>
+            <p>for further question on applying enter your email to receive further instructions:</p>
+            <div class="container"></div>
+                <form>
+                    <div class="formgroup">
+                        <label for="email">Email Address: <span id="emailerror"></span></label>
+                        <input type="email" class="formcontrol" placeholder="Enter email" id="email" name="email">
+                    </div>
+                    <div class="formgroup">
+                        <label for="confirm">Confirm Email: <span id="confirmerror"></span></label>
+                        <input type="confirm" class="formcontrol" placeholder="Confirm" id="confirm" name="confirm">
+                    </div>
+                    <input type="button" value="Confirm Email" onclick="checkemail()">
+                </form>
+            </div>
+        </div>
+
+    </body>
+    <footer>
+        <p>Copyright © 2026 da real HEB, LP</p>
+    </footer>
+</html>
